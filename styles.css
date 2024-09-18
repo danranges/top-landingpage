@@ -6,3 +6,27 @@ body {
   background-color: #1f2937;
   font-family: "Roboto", sans-serif;
 }
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1rem;
+}
+
+.link {
+  color: #e5e7eb;
+  text-decoration: none;
+}
+.container.links {
+  display: flex;
+  gap: 2rem;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.logo {
+  color: #f9faf8;
+  font-size: 24px;
+  font-weight: 700;
+}
