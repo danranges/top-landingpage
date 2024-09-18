@@ -36,7 +36,15 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 2rem;
+  justify-content: center;
+  padding: 2rem 4rem;
+}
+
+.container.flex {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin-bottom: 4rem;
 }
 
 .bg-white {
@@ -47,16 +55,27 @@ p {
   gap: 2rem;
 }
 
+.container.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 10rem;
+  text-wrap: wrap;
+}
+
+.container.content p {
+  text-align: center;
+  margin-top: 0.5rem;
+  color: #1f2937;
+}
 .link,
 .subtext {
   color: #e5e7eb;
   font-size: 18px;
-  /* font-weight: 300; */
 }
 
 .subtext {
   margin-top: 8px;
-  /* margin-right: 2rem; */
 }
 
 .logo {
@@ -86,6 +105,7 @@ h2 {
   font-size: 36px;
   color: #1f2937;
   font-weight: 900;
+  margin-bottom: 4rem;
 }
 
 .placeholder {
@@ -107,4 +127,13 @@ h2 {
   font-size: 18px;
   font-weight: 600;
   border: none;
+}
+
+.box {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 20px;
+  border: solid;
+  border-width: 4px;
+  border-color: #3882f6;
 }
