@@ -133,6 +133,12 @@ h2 {
   border: none;
 }
 
+.b-white {
+  border: solid;
+  border-width: 2px;
+  border-color: #f9faf8;
+}
+
 .box {
   width: 10rem;
   height: 10rem;
@@ -163,4 +169,28 @@ p.source {
   color: #1f2937;
   text-align: end;
   padding-right: 4rem;
+}
+
+.call-to-action {
+  margin: 8rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 8rem;
+  border-radius: 10px;
+}
+
+.container.call-to-action {
+  flex-direction: column;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+.call-to-action > p {
+  color: #f9faf8;
+}
+
+.t-bold {
+  font-weight: 600;
+  font-size: 24px;
 }
