@@ -153,7 +153,7 @@ h2 {
   flex-direction: column;
   width: 75%;
   justify-content: center;
-  margin: 8rem 2rem 4rem;
+  margin: 6rem 2rem 4rem;
 }
 p.quote {
   font-size: 36px;
@@ -172,7 +172,7 @@ p.source {
 }
 
 .call-to-action {
-  margin: 8rem 2rem;
+  margin: 4rem 2rem 2rem;
   display: flex;
   justify-content: space-between;
   padding: 2rem 8rem;
@@ -193,4 +193,9 @@ p.source {
 .t-bold {
   font-weight: 600;
   font-size: 24px;
+}
+
+.footer {
+  margin-top: 2rem;
+  color: #f9faf8;
 }
